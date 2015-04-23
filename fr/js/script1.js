@@ -5,10 +5,18 @@
         "../fr/son/a2.mp3",
         "../fr/son/a3.mp3",
 		"../fr/son/a4.mp3",
+		  "../fr/son/a5.mp3",
+        "../fr/son/a6.mp3",
+        "../fr/son/a7.mp3",
+		"../fr/son/a8.mp3",
 		"../fr/voix/chapitre1.mp3",
         "../fr/voix/chapitre2.mp3",
         "../fr/voix/chapitre3.mp3",
-		"../fr/voix/chapitre4.mp3",		
+		"../fr/voix/chapitre4.mp3",	
+			"../fr/voix/chapitre5.mp3",
+        "../fr/voix/chapitre6.mp3",
+        "../fr/voix/chapitre7.mp3",
+		"../fr/voix/chapitre8.mp3",	
 		"../fr/voices/chapitre1.mp3",
         "../fr/voices/chapitre2.mp3",
         "../fr/voices/chapitre3.mp3",
@@ -17,6 +25,10 @@
 		"../fr/resources/chapter1/img/2.jpg",
 		"../fr/resources/chapter1/img/3.jpg",
 		"../fr/resources/chapter1/img/4.jpg",
+			"../fr/resources/chapter1/img/5.jpg",
+		"../fr/resources/chapter1/img/6.jpg",
+		"../fr/resources/chapter1/img/7.jpg",
+		"../fr/resources/chapter1/img/8.jpg",
     ], function() {
         startApp();
     });
@@ -71,7 +83,7 @@
 });
 
 // liste des chapitre: la valaur correspond au nombre de page par chapitre
-var chapterList=[4,4,4,6,4,4];
+var chapterList=[8,6,5,6];
 var menuStatus = 1; //closed
 var chapter = 1;
 var page = 1;
