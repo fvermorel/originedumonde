@@ -36,18 +36,7 @@ body {
     border-radius: 150px;
 }
 
-/*
-#chargement{
-    background-image: url("../img/chargement01.gif");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    position: absolute;
-    height: 5%;
-    width: 5%;
-    z-index: 16;
-	top:25%;
-	left:48%;
-}*/
+
 
 #chargement{
     background-image: url("../img/chargement07.png");

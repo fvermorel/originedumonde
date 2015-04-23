@@ -1148,10 +1148,7 @@
   width: 8192px;
   height: 768px;
 }
-.chapitre2 {
-  width: 4096px;
-  height: 768px;
-}
+
 .pause {
 	  -webkit-animation-play-state:paused!important;
 }
