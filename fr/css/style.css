@@ -169,7 +169,7 @@ canvas {
 	margin-left: 1%;
 }
 
-#histoire a{
+#histoire {
 	color:#fff;
     top: 42%;
     left: 10%;
@@ -179,6 +179,9 @@ canvas {
     z-index: 16;
 	text-decoration:none;
 }
+
+#histoire a{
+	color:#fff;}
 
 #coinmalin a{
 	color:#fff;
