@@ -100,70 +100,66 @@ background-image: url(../resources/chapter2/img/6.jpg);
 	background-repeat:no-repeat;
 }
 .page15 {
-background-image: url(../resources/chapter4/img/3.jpg);
+background-image: url(../resources/chapter3/img/1.jpg);
 	background-size:contain;
 	background-repeat:no-repeat;
 }
 .page16 {
-background-image: url(../resources/chapter4/img/4.jpg);
+background-image: url(../resources/chapter3/img/2.jpg);
 	background-size:contain;
 	background-repeat:no-repeat;
 }
 .page17 {
-background-image: url(../resources/chapter4/img/5.jpg);
+background-image: url(../resources/chapter3/img/3.jpg);
 	background-size:contain;
 	background-repeat:no-repeat;
 }
 .page18 {
-background-image: url(../resources/chapter4/img/6.jpg);
+background-image: url(../resources/chapter3/img/4.jpg);
 	background-size:contain;
 	background-repeat:no-repeat;
 }
 
 .page19 {
-background-image: url(../resources/chapter5/img/1.jpg);
+background-image: url(../resources/chapter3/img/5.jpg);
 	background-size:contain;
 	background-repeat:no-repeat;
 }
 
 .page20 {
-background-image: url(../resources/chapter5/img/2.jpg);
+background-image: url(../resources/chapter4/img/1.jpg);
 	background-size:contain;
 	background-repeat:no-repeat;
 }
 .page21 {
-background-image: url(../resources/chapter5/img/3.jpg);
+background-image: url(../resources/chapter4/img/2.jpg);
 	background-size:contain;
 	background-repeat:no-repeat;
 }
 .page22 {
-background-image: url(../resources/chapter5/img/4.jpg);
+background-image: url(../resources/chapter4/img/3.jpg);
 	background-size:contain;
 	background-repeat:no-repeat;
 }
 
 
 .page23 {
-background-image: url(../resources/chapter6/img/1.jpg);
+background-image: url(../resources/chapter4/img/4.jpg);
 	background-size:contain;
 	background-repeat:no-repeat;
 }
 
 .page24 {
-background-image: url(../resources/chapter6/img/2.png);
+background-image: url(../resources/chapter4/img/5.jpg);
 	background-size:contain;
 	background-repeat:no-repeat;
 }
 .page25 {
-background-image: url(../resources/chapter6/img/3-fond.jpg);
+background-image: url(../resources/chapter4/img/6.jpg);
 	background-size:contain;
 	background-repeat:no-repeat;
 }
-.page26 {
-background-image: url(../resources/chapter6/img/4.jpg);
-	background-size:contain;
-	background-repeat:no-repeat;
-}
+
 .swiper-slide .title {
   font-style: italic;
   font-size: 42px;

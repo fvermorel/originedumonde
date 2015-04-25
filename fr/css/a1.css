@@ -347,20 +347,19 @@
   position: absolute;
   top: 4%;
   width: 68.6%;
-  -webkit-animation: perles 30s linear infinite;
-  -moz-animation: perles 30s linear infinite;
-  animation: perles 30s linear infinite;
+  -webkit-animation: perlesb 30s linear infinite;
+
 }
 }
-@-webkit-keyframes perles {
+@-webkit-keyframes perlesb {
 0% {-webkit-transform:rotate(0deg);transform:rotate(0deg); transform-origin:center; -webkit-transform-origin:center;}
 100% {-webkit-transform:rotate(-360deg);transform:rotate(-360deg); transform-origin:center; -webkit-transform-origin:center;}
 }
- @-moz-keyframes perles {
+ @-moz-keyframes perlesb {
 0% {-webkit-transform:rotate(0deg);transform:rotate(0deg); transform-origin:center; -webkit-transform-origin:center;}
 100% {-webkit-transform:rotate(-360deg);transform:rotate(-360deg); transform-origin:center; -webkit-transform-origin:center;}
 }
- @keyframes perles {
+ @keyframes perlesb {
 0% {-webkit-transform:rotate(0deg);transform:rotate(0deg); transform-origin:center; -webkit-transform-origin:center;}
 100% {-webkit-transform:rotate(-360deg);transform:rotate(-360deg); transform-origin:center; -webkit-transform-origin:center;}
 }
@@ -406,7 +405,7 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 37%;
-    left: 56%;
+    left: 6%;
     position: absolute;
     top: 11%;
     width: 5%;	
@@ -432,7 +431,7 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 2.5%;
-    left: 57.18%;
+    left: 7.18%;
     position: absolute;
     bottom: 69.3%;    
 	 width: 2.2%;	
@@ -467,7 +466,7 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 4%;
-    left: 59.2%;
+    left: 9.2%;
     position: absolute;
     top: 15%;
     width: 0.4%;	
@@ -493,7 +492,7 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 5%;
-    left: 58.22%;
+    left: 8.22%;
     position: absolute;
     top: 15%;
     width: 0.5%;	
@@ -519,7 +518,7 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 3%;
-    left: 59.5%;
+    left: 9.5%;
     position: absolute;
     top: 13%;
     width: 0.3%;	
@@ -545,7 +544,7 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 5%;
-    left: 53.65%;
+    left: 3.65%;
     position: absolute;
     top: 59%;
     width: 0.5%;	
@@ -1001,7 +1000,7 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 29%;
-    left: 78.8%;
+    left: 28.8%;
     position: absolute;
     top: 61%;
     width: 5%;
@@ -1027,7 +1026,7 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 100%;
-    left: 74.75%;
+    left: 24.75%;
     position: absolute;
     top: 0;
     width: 13%;	
@@ -1145,10 +1144,13 @@
 100% {-webkit-transform:rotate(-30deg);  opacity:0.5}
 }
 .chapitre1 {
+  width: 4096px;
+  height: 768px;
+}
+.chapitre2 {
   width: 8192px;
   height: 768px;
 }
-
 .pause {
 	  -webkit-animation-play-state:paused!important;
 }

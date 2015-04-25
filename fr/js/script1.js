@@ -83,7 +83,7 @@
 });
 
 // liste des chapitre: la valaur correspond au nombre de page par chapitre
-var chapterList=[8,6,5,6];
+var chapterList=[4,4,6,5,6];
 var menuStatus = 1; //closed
 var chapter = 1;
 var page = 1;

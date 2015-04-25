@@ -844,3 +844,6 @@
 0% {-webkit-transform:rotate(-30deg) scale(0); transform:rotate(-30deg) scale(0); transform-origin: 50% 50%; -webkit-transform-origin:  50% 50%; opacity:1;}
 100% {-webkit-transform:rotate(10deg) scale(1); transform:rotate(10deg) scale(1); transform-origin: 50% 50%; -webkit-transform-origin: 50% 50%; opacity:0;}
 }
+.chapitre3 {
+	width:6144px;
+}
