@@ -38,7 +38,7 @@
         <br />
         <br />
         <br />
-        <font size="5em"  face="EccentricStd">Chapitre 1 test samedi</font><br />
+        <font size="5em"  face="EccentricStd">Chapitre 1 </font><br />
         <hr width="20%" size="1px" color="#FE2EC8">
        Le début de l'univers<br />
     </center>
@@ -53,6 +53,13 @@
   <div class="swiper-wrapper chapitre1">
 <div class="swiper-slide page1" data-hash="slide1">
   <div id="text">
+       <div id="video1">
+        	<video  width="100%" height="100%" id="videotest1"  loop="true" autoplay   >
+  				<source src="resources/chapter1/a1.mp4" type="video/mp4" autoplay    />
+ 
+			</video>
+      	</div>
+  
       <div class="prev"> <img  src="img/prev.png" alt="menu"  class="arrow-left" id="prev1" /></div>
         
            <div class="next"> <img  src="img/next.png" alt="menu" class="arrow-right" id="next1" /> </div>  
@@ -74,7 +81,7 @@
     </div>
    
   </div>
-    <div id="lune" class="animpage1"></div>
+<!--    <div id="lune" class="animpage1"></div>-->
       
 </div>
 
@@ -120,6 +127,14 @@
 
 <div class="swiper-slide page3" data-hash="slide3">
   <div id="text">
+  <div id="video3">
+        	<video  width="100%" height="100%" id="videotest3"  loop="true"    >
+  				<source src="resources/chapter1/a3.mp4" type="video/mp4"   />
+ 
+			</video>
+      	</div>
+  
+  
    <div class="prev"> <img id="prev3" src="img/prev.png" alt="menu" class="arrow-left"/></div>
         
            <div class="next"> <img id="next3" src="img/next.png" alt="menu" class="arrow-right" /> </div>
@@ -140,8 +155,8 @@
         Il advint que le Chaos enfanta Éros, les forces de l'attraction, puis Gaïa, la Terre. Pour la première fois, un socle ferme, solide et éternel avait émergé du grand désordre. Puis vint Ouranos, le Ciel, et naquirent à sa suite la Nuit et le Jour. L’univers, enfin, s'organisait. Mais vous en conviendrez : il aurait été bien difficile pour nous les hommes de vivre et d’habiter en cet endroit.</div>
     </div>
     <div id="bulle3BIG">Les anciens croyaient que la Terre était plate et que le ciel la recouvrait. Ce n’est qu’au XVIIe siècle, que Galilée a démontré que notre planète était ronde et qu’elle tournait autour du Soleil (voir plus loin, « Le coin malin »).</div>
-    
-    <div id="ventre" class="animpage3 pause"></div>
+       <span class="bulle bulle3a animpage3  pause">J’en ai assez</span>
+ <!--   <div id="ventre" class="animpage3 pause"></div>-->
     <div id="btnPlus3"></div>
     <div class="chouette1"></div>
 
@@ -208,6 +223,11 @@ $( document ).ready(function() {
 		$('#voix1').pauseMedia();
 		$(".animpage1").addClass( "pause" );
 		
+		  var video1 = $('#videotest1');
+	  
+       video1[0].pause(); 	
+   	
+		
 	
 	$( ".swiper-wrapper" ).animate({
   
@@ -237,6 +257,11 @@ $('#next2').click(function(){
 	$("#bruit2").pauseMedia(); 
 	$(".animpage2").addClass( "pause" );
 	
+	  var video3 = $('#videotest3');
+	  
+     	
+           video3[0].play();	
+	
 	$( ".swiper-wrapper" ).animate({
   
     left: "-2048px",
@@ -259,7 +284,11 @@ $('#next3').click(function(){
 	
 	$('#voix3').pauseMedia();
 	$("#bruit3").pauseMedia(); 
-	$(".animpage1").addClass( "pause" );
+	$(".animpage3").addClass( "pause" );
+	
+	  var video3 = $('#videotest3');
+	  
+       video3[0].pause();
 	
 	$( ".swiper-wrapper" ).animate({
   
@@ -282,7 +311,9 @@ $('#prev2').click(function(){
 		},2000);
 		$(".animpage1").removeClass( "pause" );
 	
-		
+		  var video1 = $('#videotest1');
+	  
+       video1[0].play();
 	
 	$('#voix2').pauseMedia();
 	$("#bruit2").pauseMedia(); 
@@ -313,6 +344,10 @@ $('#prev3').click(function(){
 	$("#bruit3").pauseMedia(); 
 	$(".animpage3").addClass( "pause" );
 	
+	  var video3 = $('#videotest3');
+	  
+       video3[0].pause();
+	
 	$( ".swiper-wrapper" ).animate({
   
     left: "-1024px",
@@ -333,7 +368,10 @@ $('#prev4').click(function(){
 		},2000);
 		$(".animpage3").removeClass( "pause" );
 		
-		
+		var video3 = $('#videotest3');
+	  
+     	
+           video3[0].play();	
 	
 	$('#voix4').pauseMedia();
 	$("#bruit4").pauseMedia(); 
@@ -357,233 +395,6 @@ $('#prev4').click(function(){
  });
 
 
-
-  //var workflow = {
-//  0: {
-//			play	: function() {
-//				$(".animpage1").css("animation-play-state", "running");
-//			
-//				$("#yeuxminos").css("animation-play-state", "running");
-//				$("#yeuxpasiphae").css("animation-play-state", "running");
-//				
-//				$("#bruit1").playMedia();
-//				setTimeout (function(){
-//				$("#voix1").playMedia();
-//				},3000);
-//			},
-//			pause	: function() {
-//				$(".animpage1").css("animation-play-state", "paused");
-//			
-//					$('#voix1').pauseMedia();
-//					$("#bruit1").pauseMedia(); 
-//			}
-//		},
-//		1: {
-//			play	: function() {
-//				$(".animpage2").css("animation-play-state", "running");
-//			
-//				
-//				$("#bruit2").playMedia();
-//				setTimeout (function(){
-//				$("#voix2").playMedia();
-//				},2000);
-//			
-//				 },
-//			pause	: function() {
-//				$(".animpage2").css("animation-play-state", "paused");
-//			
-//				
-//			$('#voix2').pauseMedia();
-//					$('#bruit2').pauseMedia();
-//		
-//				 }
-//		},
-//		2: {
-//			play	: function() {
-//				$(".animpage3").css("animation-play-state", "running");
-//		
-//				
-//				$("#bruit3").playMedia();
-//				setTimeout (function(){
-//				$("#voix3").playMedia();
-//				},2000);
-//				 },
-//			pause	: function() {
-//				$(".animpage3").css("animation-play-state", "paused");
-//			
-//				/*$('#voix3').pauseMedia();*/
-//				$('#voix3').pauseMedia();
-//					$('#bruit3').pauseMedia();
-//				}
-//		},
-//		3: {
-//			play	: function() {
-//			
-//				$(".animpage4").css("animation-play-state", "running");
-//			
-//				
-//				$("#bruit4").playMedia();
-//				setTimeout (function(){
-//				$("#voix4").playMedia();
-//				},2000);
-//				 },
-//			pause	: function() {
-//				
-//			
-//				$(".animpage4").css("animation-play-state", "paused");
-//					
-//        $('#voix4').pauseMedia();
-//					$('#bruit4').pauseMedia();
-//				 }
-//		},
-//		
-//			4: {
-//			play	: function() {
-//			
-//				$(".animpage5").css("animation-play-state", "running");
-//			
-//				
-//				$("#bruit5").playMedia();
-//				setTimeout (function(){
-//				$("#voix5").playMedia();
-//				},2000);
-//				 },
-//			pause	: function() {
-//				
-//			
-//				$(".animpage5").css("animation-play-state", "paused");
-//					
-//        $('#voix5').pauseMedia();
-//					$('#bruit5').pauseMedia();
-//				 }
-//		},
-//		
-//			5: {
-//			play	: function() {
-//			
-//				$(".animpage6").css("animation-play-state", "running");
-//			
-//				
-//				$("#bruit6").playMedia();
-//				setTimeout (function(){
-//				$("#voix6").playMedia();
-//				},2000);
-//				 },
-//			pause	: function() {
-//				
-//			
-//				$(".animpage6").css("animation-play-state", "paused");
-//					
-//        $('#voix6').pauseMedia();
-//					$('#bruit6').pauseMedia();
-//				 }
-//		},
-//		
-//					6: {
-//			play	: function() {
-//			
-//				$(".animpage7").css("animation-play-state", "running");
-//			
-//				
-//				$("#bruit7").playMedia();
-//				setTimeout (function(){
-//				$("#voix7").playMedia();
-//				},2000);
-//				 },
-//			pause	: function() {
-//				
-//			
-//				$(".animpage7").css("animation-play-state", "paused");
-//					
-//        $('#voix7').pauseMedia();
-//					$('#bruit7').pauseMedia();
-//				 }
-//		},
-//		
-//		
-//					7: {
-//			play	: function() {
-//			
-//				$(".animpage8").css("animation-play-state", "running");
-//			
-//				
-//				$("#bruit8").playMedia();
-//				setTimeout (function(){
-//				$("#voix8").playMedia();
-//				},2000);
-//				 },
-//			pause	: function() {
-//				
-//			
-//				$(".animpage8").css("animation-play-state", "paused");
-//					
-//        $('#voix8').pauseMedia();
-//					$('#bruit8').pauseMedia();
-//				 }
-//		}
-
-	//};
-  
-  // mySwiper = new Swiper('.swiper-container',{
-//		pagination: false,
-//		paginationClickable: true,
-//		hashNav: false,
-//		simulateTouch : false,
-//		onlyExternal:true,
-//		onFirstInit: function(s) {
-//			// Arrêt de toutes les animations
-//			$.each(workflow, function(i, v) {
-//				v.pause();
-//			});
-//			
-//			// Exécution des animations du 1er slide
-//			workflow[s.activeIndex].play();
-//		},
-//		onSlideChangeStart: function(s) {
-//			// Arrêt des animations du slide précédent
-//			workflow[s.previousIndex].pause();
-//		},
-//		onSlideChangeEnd: function(s) {
-//			// Exécution des animations du slide actif
-//			workflow[s.activeIndex].play();
-//		}
-//	  })
-//	$('#son1').click(function() {
-//	
-//		$('#voix1').pauseMedia();
-//	});
-//	$('#son2').click(function() {
-//		$('#voix2').pauseMedia();
-//	});
-//	$('#son3').click(function() {
-//		$('#voix3').pauseMedia();
-//	});
-//	$('#son4').click(function() {
-//		$('#voix4').pauseMedia();
-//	});
-//	
-//		$('#son5').click(function() {
-//	
-//		$('#voix5').pauseMedia();
-//	});
-//	$('#son6').click(function() {
-//		$('#voix6').pauseMedia();
-//	});
-//	$('#son7').click(function() {
-//		$('#voix7').pauseMedia();
-//	});
-//	$('#son8').click(function() {
-//		$('#voix8').pauseMedia();
-//	});
-//	
-//	 $('.arrow-left').on('click', function(e){
-//    e.preventDefault()
-//    mySwiper.swipePrev()
-//  })
-//  $('.arrow-right').on('click', function(e){
-//    e.preventDefault()
-//    mySwiper.swipeNext()
-//  })
   </script> 
 <script src="js/encart.js"></script>
 <script src="js/loading.js"></script> 

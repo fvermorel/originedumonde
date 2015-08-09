@@ -53,6 +53,12 @@
   <div class="swiper-wrapper chapitre4">
  <div class="swiper-slide page15" data-hash="slide15">
       <div id="text">
+      <div id="video15">
+        	<video  width="100%" height="100%" id="videotest15"  loop="true"  autoplay    >
+  				<source src="resources/chapter4/d1.mp4" type="video/mp4" autoplay    />
+ 
+			</video>
+      	</div>
           <div class="prev"> <a href="chapitre3.html"><img id="prev15" src="img/prev.png" alt="menu" class="arrow-left"/></a></div>
         
            <div class="next"> <img id="next15" src="img/next.png" alt="menu" class="arrow-right" /> </div> 
@@ -73,10 +79,11 @@
             Chronos rassembla son armée de Titans sur le mont Orthys. Zeus installa le campement des dieux en haut du mont Olympe, la plus grande montagne du monde, dont le sommet touche le ciel. Plusieurs Titans rejoignirent son camp, et parmi eux, les frères Épiméthée et Prométhée. Mais même ainsi, face la multitude de monstres terrifiants issus des gouttes du sang d’Ouranos qui s’étaient rangés derrière Chronos, les dieux ne pouvaient avoir l’avantage. </div>
         </div>
         <div id="bulle1BIG"> Le mont Olympe est la montagne la plus haute de Grèce : son sommet culmine à 2 917 mètres. C’est pour ça que les anciens pensaient que les dieux y vivaient. À ne pas confondre avec la ville Olympie, où se sont déroulés... les premiers jeux olympiques !</div>
-        <div id="faucille" class="animpage15 "></div>
-        <div id="nuage" class="animpage15 "></div>
+       <!-- <div id="faucille" class="animpage15 "></div>
+        <div id="nuage" class="animpage15 "></div>-->
         <div id="btnPlus15"></div>
         <div class="chouette1"></div>
+         <span class="bulle bulle15a animpage15">A l'attaque !</span> <span class="bulle bulle15b animpage15">Renvoyons les dans le tartare !</span> <span class="bulle bulle15c animpage15 bulledroite">Ca ne va pas se passer comme ça</span>
    
       </div>
     </div>
@@ -110,6 +117,9 @@
         <div id="bulle1BIG">La foudre, pour les Grecs, venait directement de Zeus : c'était la manifestation de la colère du roi des dieux et il fallait obligatoirement la prendre en compte.</div>
         <div id="btnPlus16"></div>
         <div class="chouette1"></div>
+        
+         <span class="bulle bulle16a animpage16 pause">Enfin libres !</span>
+          <span class="bulle bulle16b animpage16 pause">Merci Zeus</span>
 	</div>
     </div>
     
@@ -195,7 +205,8 @@
             Les dieux avaient triomphé et Gaïa, boudeuse, s'enferma dans un silence éternel. Rien ne devait jamais plus remettre en question leur pouvoir. Ce fut le début de l’âge d’or, une époque de paix et d’harmonie bienheureuse. Mais ce monde, ce n'est pas encore le nôtre, et il devait encore changer avant que les hommes puissent en fouler le sol.</div>
         </div>
         <div id="etoiles" class="animpage19 pause"></div>
- 
+     <span class="bulle animpage19 bulle19a">Hourra</span>
+          <span class="bulle animpage19 bulledroite bulle19b">Enfin nous avons gagné</span>
       </div>
     </div>
  <!-- Fin page 19-->
@@ -222,6 +233,10 @@ $( document ).ready(function() {
 		$('#bruit15').pauseMedia();
 		$('#voix15').pauseMedia();
 		$(".animpage15").addClass( "pause" );
+		
+		  var video15 = $('#videotest15');
+	  
+       video15[0].pause();
 		
 	
 	$( ".swiper-wrapper" ).animate({
@@ -326,6 +341,11 @@ $('#prev16').click(function(){
 	$("#bruit16").pauseMedia(); 
 	$(".animpage16").addClass( "pause" );
 	
+	
+		  var video15 = $('#videotest15');
+	  
+       video15[0].play();
+	
 	$( ".swiper-wrapper" ).animate({
   
     left: "0px",
@@ -422,233 +442,6 @@ $('#prev19').click(function(){
  });
 
 
-
-  //var workflow = {
-//  0: {
-//			play	: function() {
-//				$(".animpage1").css("animation-play-state", "running");
-//			
-//				$("#yeuxminos").css("animation-play-state", "running");
-//				$("#yeuxpasiphae").css("animation-play-state", "running");
-//				
-//				$("#bruit1").playMedia();
-//				setTimeout (function(){
-//				$("#voix1").playMedia();
-//				},3000);
-//			},
-//			pause	: function() {
-//				$(".animpage1").css("animation-play-state", "paused");
-//			
-//					$('#voix1').pauseMedia();
-//					$("#bruit1").pauseMedia(); 
-//			}
-//		},
-//		1: {
-//			play	: function() {
-//				$(".animpage2").css("animation-play-state", "running");
-//			
-//				
-//				$("#bruit2").playMedia();
-//				setTimeout (function(){
-//				$("#voix2").playMedia();
-//				},2000);
-//			
-//				 },
-//			pause	: function() {
-//				$(".animpage2").css("animation-play-state", "paused");
-//			
-//				
-//			$('#voix2').pauseMedia();
-//					$('#bruit2').pauseMedia();
-//		
-//				 }
-//		},
-//		2: {
-//			play	: function() {
-//				$(".animpage3").css("animation-play-state", "running");
-//		
-//				
-//				$("#bruit3").playMedia();
-//				setTimeout (function(){
-//				$("#voix3").playMedia();
-//				},2000);
-//				 },
-//			pause	: function() {
-//				$(".animpage3").css("animation-play-state", "paused");
-//			
-//				/*$('#voix3').pauseMedia();*/
-//				$('#voix3').pauseMedia();
-//					$('#bruit3').pauseMedia();
-//				}
-//		},
-//		3: {
-//			play	: function() {
-//			
-//				$(".animpage4").css("animation-play-state", "running");
-//			
-//				
-//				$("#bruit4").playMedia();
-//				setTimeout (function(){
-//				$("#voix4").playMedia();
-//				},2000);
-//				 },
-//			pause	: function() {
-//				
-//			
-//				$(".animpage4").css("animation-play-state", "paused");
-//					
-//        $('#voix4').pauseMedia();
-//					$('#bruit4').pauseMedia();
-//				 }
-//		},
-//		
-//			4: {
-//			play	: function() {
-//			
-//				$(".animpage5").css("animation-play-state", "running");
-//			
-//				
-//				$("#bruit5").playMedia();
-//				setTimeout (function(){
-//				$("#voix5").playMedia();
-//				},2000);
-//				 },
-//			pause	: function() {
-//				
-//			
-//				$(".animpage5").css("animation-play-state", "paused");
-//					
-//        $('#voix5').pauseMedia();
-//					$('#bruit5').pauseMedia();
-//				 }
-//		},
-//		
-//			5: {
-//			play	: function() {
-//			
-//				$(".animpage6").css("animation-play-state", "running");
-//			
-//				
-//				$("#bruit6").playMedia();
-//				setTimeout (function(){
-//				$("#voix6").playMedia();
-//				},2000);
-//				 },
-//			pause	: function() {
-//				
-//			
-//				$(".animpage6").css("animation-play-state", "paused");
-//					
-//        $('#voix6').pauseMedia();
-//					$('#bruit6').pauseMedia();
-//				 }
-//		},
-//		
-//					6: {
-//			play	: function() {
-//			
-//				$(".animpage7").css("animation-play-state", "running");
-//			
-//				
-//				$("#bruit7").playMedia();
-//				setTimeout (function(){
-//				$("#voix7").playMedia();
-//				},2000);
-//				 },
-//			pause	: function() {
-//				
-//			
-//				$(".animpage7").css("animation-play-state", "paused");
-//					
-//        $('#voix7').pauseMedia();
-//					$('#bruit7').pauseMedia();
-//				 }
-//		},
-//		
-//		
-//					7: {
-//			play	: function() {
-//			
-//				$(".animpage8").css("animation-play-state", "running");
-//			
-//				
-//				$("#bruit8").playMedia();
-//				setTimeout (function(){
-//				$("#voix8").playMedia();
-//				},2000);
-//				 },
-//			pause	: function() {
-//				
-//			
-//				$(".animpage8").css("animation-play-state", "paused");
-//					
-//        $('#voix8').pauseMedia();
-//					$('#bruit8').pauseMedia();
-//				 }
-//		}
-
-	//};
-  
-  // mySwiper = new Swiper('.swiper-container',{
-//		pagination: false,
-//		paginationClickable: true,
-//		hashNav: false,
-//		simulateTouch : false,
-//		onlyExternal:true,
-//		onFirstInit: function(s) {
-//			// Arrêt de toutes les animations
-//			$.each(workflow, function(i, v) {
-//				v.pause();
-//			});
-//			
-//			// Exécution des animations du 1er slide
-//			workflow[s.activeIndex].play();
-//		},
-//		onSlideChangeStart: function(s) {
-//			// Arrêt des animations du slide précédent
-//			workflow[s.previousIndex].pause();
-//		},
-//		onSlideChangeEnd: function(s) {
-//			// Exécution des animations du slide actif
-//			workflow[s.activeIndex].play();
-//		}
-//	  })
-//	$('#son1').click(function() {
-//	
-//		$('#voix1').pauseMedia();
-//	});
-//	$('#son2').click(function() {
-//		$('#voix2').pauseMedia();
-//	});
-//	$('#son3').click(function() {
-//		$('#voix3').pauseMedia();
-//	});
-//	$('#son4').click(function() {
-//		$('#voix4').pauseMedia();
-//	});
-//	
-//		$('#son5').click(function() {
-//	
-//		$('#voix5').pauseMedia();
-//	});
-//	$('#son6').click(function() {
-//		$('#voix6').pauseMedia();
-//	});
-//	$('#son7').click(function() {
-//		$('#voix7').pauseMedia();
-//	});
-//	$('#son8').click(function() {
-//		$('#voix8').pauseMedia();
-//	});
-//	
-//	 $('.arrow-left').on('click', function(e){
-//    e.preventDefault()
-//    mySwiper.swipePrev()
-//  })
-//  $('.arrow-right').on('click', function(e){
-//    e.preventDefault()
-//    mySwiper.swipeNext()
-//  })
   </script> 
 <script src="js/encart.js"></script>
 <script src="js/loading.js"></script> 

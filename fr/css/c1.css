@@ -474,3 +474,439 @@
 	width:5120px;
 	
 }
+
+
+.bulle15a {
+		    top: 10%;
+    left: 25%;
+	
+	-webkit-animation: bulle15a1 50s ease-in;
+	-moz-animation: bulle15a1 50s ease-in;
+	animation: bulle15a1 50s ease-in;
+	
+}
+
+.bulle15b {
+		top: 68%;
+    left: 16%;
+	
+	-webkit-animation: bulle15b1 50s ease-in;
+	-moz-animation: bulle15b1 50s ease-in;
+	animation: bulle15b1 50s ease-in;
+}
+.bulle15c {
+		top: 2%;
+    left: 66%;
+	
+	-webkit-animation: bulle15c1 50s ease-in;
+	-moz-animation: bulle15c1 50s ease-in;
+	animation: bulle15c1 50s ease-in;
+	
+}
+
+@-webkit-keyframes bulle15a1 {
+0% {
+opacity:0;
+}
+20% {
+opacity:0;
+}
+ 25% {
+ opacity:1;
+}
+ 60% {
+ opacity:1;
+}
+ 65% {
+ opacity:0;
+}
+}
+ @-moz-keyframes bulle15a1 {
+0% {
+opacity:0;
+}
+20% {
+opacity:0;
+}
+ 25% {
+ opacity:1;
+}
+ 60% {
+ opacity:1;
+}
+ 65% {
+ opacity:0;
+}
+}
+ @keyframes bulle15a1 {
+0% {
+opacity:0;
+}
+20% {
+opacity:0;
+}
+ 25% {
+ opacity:1;
+}
+ 60% {
+ opacity:1;
+}
+ 65% {
+ opacity:0;
+}
+}
+
+@-webkit-keyframes bulle15b1 {
+0% {
+opacity:0;
+}
+35% {
+opacity:0;
+}
+ 40% {
+ opacity:1;
+}
+ 75% {
+ opacity:1;
+}
+ 80% {
+ opacity:0;
+}
+}
+ @-moz-keyframes bulle15b1 {
+0% {
+opacity:0;
+}
+35% {
+opacity:0;
+}
+ 40% {
+ opacity:1;
+}
+ 75% {
+ opacity:1;
+}
+ 80% {
+ opacity:0;
+}
+}
+ @keyframes bulle15b1 {
+0% {
+opacity:0;
+}
+35% {
+opacity:0;
+}
+ 40% {
+ opacity:1;
+}
+ 75% {
+ opacity:1;
+}
+ 80% {
+ opacity:0;
+}
+}
+
+@-webkit-keyframes bulle15c1 {
+0% {
+opacity:0;
+}
+50% {
+opacity:0;
+}
+ 55% {
+ opacity:1;
+}
+ 85% {
+ opacity:1;
+}
+ 90% {
+ opacity:0;
+}
+}
+ @-moz-keyframes bulle15c1 {
+0% {
+opacity:0;
+}
+50% {
+opacity:0;
+}
+ 55% {
+ opacity:1;
+}
+ 85% {
+ opacity:1;
+}
+ 90% {
+ opacity:0;
+}
+}
+ @keyframes bulle15c1 {
+0% {
+opacity:0;
+}
+50% {
+opacity:0;
+}
+ 55% {
+ opacity:1;
+}
+ 85% {
+ opacity:1;
+}
+ 90% {
+ opacity:0;
+}
+}
+
+
+
+
+.bulle16a {
+		top: 48%;
+    left: 68%;
+	
+	-webkit-animation: bulle16a1 40s ease-in;
+	-moz-animation: bulle16a1 40s ease-in;
+	animation: bulle16a1 40s ease-in;
+	
+}
+
+.bulle16b {
+	top: 68%;
+    left: 86%;
+	
+	-webkit-animation: bulle16b1 40s ease-in;
+	-moz-animation: bulle16b1 40s ease-in;
+	animation: bulle16b1 40s ease-in;
+	
+}
+
+@-webkit-keyframes bulle16a1 {
+0% {
+opacity:0;
+}
+20% {
+opacity:0;
+}
+ 25% {
+ opacity:1;
+}
+ 60% {
+ opacity:1;
+}
+ 65% {
+ opacity:0;
+}
+}
+ @-moz-keyframes bulle16a1{
+0% {
+opacity:0;
+}
+20% {
+opacity:0;
+}
+ 25% {
+ opacity:1;
+}
+ 60% {
+ opacity:1;
+}
+ 65% {
+ opacity:0;
+}
+}
+ @keyframes bulle16a1 {
+0% {
+opacity:0;
+}
+20% {
+opacity:0;
+}
+ 25% {
+ opacity:1;
+}
+ 60% {
+ opacity:1;
+}
+ 65% {
+ opacity:0;
+}
+}
+
+@-webkit-keyframes bulle16b1 {
+0% {
+opacity:0;
+}
+40% {
+opacity:0;
+}
+ 45% {
+ opacity:1;
+}
+ 80% {
+ opacity:1;
+}
+ 85% {
+ opacity:0;
+}
+}
+ @-moz-keyframes bulle16b1 {
+0% {
+opacity:0;
+}
+40% {
+opacity:0;
+}
+ 45% {
+ opacity:1;
+}
+ 80% {
+ opacity:1;
+}
+ 85% {
+ opacity:0;
+}
+}
+ @keyframes bulle16b1 {
+0% {
+opacity:0;
+}
+40% {
+opacity:0;
+}
+ 45% {
+ opacity:1;
+}
+ 80% {
+ opacity:1;
+}
+ 85% {
+ opacity:0;
+}
+}
+
+.bulle19a {
+		top: 10%;
+    left: 60%;
+	
+	-webkit-animation: bulle19a1 40s ease-in;
+	-moz-animation: bulle19a1 40s ease-in;
+	animation: bulle19a1 40s ease-in;
+	
+}
+
+.bulle19b {
+    top: 10%;
+    left: 40%;
+	
+	-webkit-animation: bulle19b1 40s ease-in;
+	-moz-animation: bulle19b1 40s ease-in;
+	animation: bulle19b1 40s ease-in;
+	
+}
+
+@-webkit-keyframes bulle19a1 {
+0% {
+opacity:0;
+}
+20% {
+opacity:0;
+}
+ 25% {
+ opacity:1;
+}
+ 60% {
+ opacity:1;
+}
+ 65% {
+ opacity:0;
+}
+}
+ @-moz-keyframes bulle19a1{
+0% {
+opacity:0;
+}
+20% {
+opacity:0;
+}
+ 25% {
+ opacity:1;
+}
+ 60% {
+ opacity:1;
+}
+ 65% {
+ opacity:0;
+}
+}
+ @keyframes bulle19a1 {
+0% {
+opacity:0;
+}
+20% {
+opacity:0;
+}
+ 25% {
+ opacity:1;
+}
+ 60% {
+ opacity:1;
+}
+ 65% {
+ opacity:0;
+}
+}
+
+@-webkit-keyframes bulle19b1 {
+0% {
+opacity:0;
+}
+40% {
+opacity:0;
+}
+ 45% {
+ opacity:1;
+}
+ 80% {
+ opacity:1;
+}
+ 85% {
+ opacity:0;
+}
+}
+ @-moz-keyframes bulle19b1 {
+0% {
+opacity:0;
+}
+40% {
+opacity:0;
+}
+ 45% {
+ opacity:1;
+}
+ 80% {
+ opacity:1;
+}
+ 85% {
+ opacity:0;
+}
+}
+ @keyframes bulle19b1 {
+0% {
+opacity:0;
+}
+40% {
+opacity:0;
+}
+ 45% {
+ opacity:1;
+}
+ 80% {
+ opacity:1;
+}
+ 85% {
+ opacity:0;
+}
+}

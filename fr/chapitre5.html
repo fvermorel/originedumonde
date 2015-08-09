@@ -77,6 +77,7 @@
         <div id="btnPlus20"></div>
         <div class="chouette1"></div>
         <div id="etoileszeus" class="animpage20"></div>
+     
         <div class="prev"> <a href="chapitre3.html"><img id="prev" src="img/prev.png" alt="menu" /></a></div>
       </div>
     </div>
@@ -110,6 +111,8 @@
         <div id="oeil01" class="animpage21 pause"></div>
         <div id="oeil02" class="animpage21 pause"></div>
         <div id="yeuxera" class="animpage21 pause"></div>
+         <span class="bulle bulle21a animpage21 pause">Je m'ennuie un peu</span>
+          <span class="bulle bulle21b animpage21 pause">Je te tiens à l'oeil</span>
         </div>
     </div>
     
@@ -117,6 +120,13 @@
     
     <div class="swiper-slide page22" data-hash="slide22">
       <div id="text">
+      <div id="video22">
+        	<video  width="100%" height="100%" id="videotest22"  loop="true"    >
+  				<source src="resources/chapter5/e3.mp4" type="video/mp4"   />
+ 
+			</video>
+      	</div>
+      
           <div class="prev"> <img id="prev22" src="img/prev.png" alt="menu" class="arrow-left"/></div>
         
            <div class="next"> <img id="next22" src="img/next.png" alt="menu" class="arrow-right" /> </div> 
@@ -139,9 +149,9 @@
         <div id="bulle1BIG">Poséidon n’est pas un dieu méchant, mais il n’aime pas qu’on lui prenne ce qui lui appartient : vous en aurez la démonstration en lisant notre livre « Minos et Thésée ».</div>
         <div id="btnPlus22"></div>
         <div class="chouette1"></div>
-        <div id="lune" class="animpage22 pause"></div>
+     <!--   <div id="lune" class="animpage22 pause"></div>
         <div id="voilegauche" class="animpage22 pause"></div>
-        <div id="voiledroit" class="animpage22 pause"></div>
+        <div id="voiledroit" class="animpage22 pause"></div>-->
       </div>
     </div>
     
@@ -173,6 +183,8 @@
         <div class="chouette1"></div>
         <div id="yeuxhades"  class="animpage23 pause"></div>
         <div id="yeuxcerbere"  class="animpage23 pause"></div>
+        
+        <span class="bulle bulle23a animpage23 pause bulledroite">Bienvenue...</span>
        	</div>
     </div>
     
@@ -289,6 +301,11 @@ $('#next21').click(function(){
 	$("#bruit21").pauseMedia(); 
 	$(".animpage21").addClass( "pause" );
 	
+	
+		  var video22 = $('#videotest22');
+	  
+       video22[0].play();
+	
 	$( ".swiper-wrapper" ).animate({
   
     left: "-2048px",
@@ -312,6 +329,11 @@ $('#next22').click(function(){
 	$('#voix22').pauseMedia();
 	$("#bruit22").pauseMedia(); 
 	$(".animpage22").addClass( "pause" );
+	
+		  var video22 = $('#videotest22');
+	  
+       video22[0].pause();
+	
 	
 	$( ".swiper-wrapper" ).animate({
   
@@ -411,6 +433,11 @@ $('#prev22').click(function(){
 	$("#bruit22").pauseMedia(); 
 	$(".animpage22").addClass( "pause" );
 	
+	
+		  var video22 = $('#videotest22');
+	  
+       video22[0].pause();
+	
 	$( ".swiper-wrapper" ).animate({
   
     left: "-1024px",
@@ -438,6 +465,9 @@ $('#prev23').click(function(){
 	$(".animpage23").addClass( "pause" );
 
 	
+		  var video22 = $('#videotest22');
+	  
+       video22[0].play();
 	
 	$( ".swiper-wrapper" ).animate({
   
@@ -509,232 +539,6 @@ $('#prev25').click(function(){
 
 
 
-  //var workflow = {
-//  0: {
-//			play	: function() {
-//				$(".animpage1").css("animation-play-state", "running");
-//			
-//				$("#yeuxminos").css("animation-play-state", "running");
-//				$("#yeuxpasiphae").css("animation-play-state", "running");
-//				
-//				$("#bruit1").playMedia();
-//				setTimeout (function(){
-//				$("#voix1").playMedia();
-//				},3000);
-//			},
-//			pause	: function() {
-//				$(".animpage1").css("animation-play-state", "paused");
-//			
-//					$('#voix1').pauseMedia();
-//					$("#bruit1").pauseMedia(); 
-//			}
-//		},
-//		1: {
-//			play	: function() {
-//				$(".animpage2").css("animation-play-state", "running");
-//			
-//				
-//				$("#bruit2").playMedia();
-//				setTimeout (function(){
-//				$("#voix2").playMedia();
-//				},2000);
-//			
-//				 },
-//			pause	: function() {
-//				$(".animpage2").css("animation-play-state", "paused");
-//			
-//				
-//			$('#voix2').pauseMedia();
-//					$('#bruit2').pauseMedia();
-//		
-//				 }
-//		},
-//		2: {
-//			play	: function() {
-//				$(".animpage3").css("animation-play-state", "running");
-//		
-//				
-//				$("#bruit3").playMedia();
-//				setTimeout (function(){
-//				$("#voix3").playMedia();
-//				},2000);
-//				 },
-//			pause	: function() {
-//				$(".animpage3").css("animation-play-state", "paused");
-//			
-//				/*$('#voix3').pauseMedia();*/
-//				$('#voix3').pauseMedia();
-//					$('#bruit3').pauseMedia();
-//				}
-//		},
-//		3: {
-//			play	: function() {
-//			
-//				$(".animpage4").css("animation-play-state", "running");
-//			
-//				
-//				$("#bruit4").playMedia();
-//				setTimeout (function(){
-//				$("#voix4").playMedia();
-//				},2000);
-//				 },
-//			pause	: function() {
-//				
-//			
-//				$(".animpage4").css("animation-play-state", "paused");
-//					
-//        $('#voix4').pauseMedia();
-//					$('#bruit4').pauseMedia();
-//				 }
-//		},
-//		
-//			4: {
-//			play	: function() {
-//			
-//				$(".animpage5").css("animation-play-state", "running");
-//			
-//				
-//				$("#bruit5").playMedia();
-//				setTimeout (function(){
-//				$("#voix5").playMedia();
-//				},2000);
-//				 },
-//			pause	: function() {
-//				
-//			
-//				$(".animpage5").css("animation-play-state", "paused");
-//					
-//        $('#voix5').pauseMedia();
-//					$('#bruit5').pauseMedia();
-//				 }
-//		},
-//		
-//			5: {
-//			play	: function() {
-//			
-//				$(".animpage6").css("animation-play-state", "running");
-//			
-//				
-//				$("#bruit6").playMedia();
-//				setTimeout (function(){
-//				$("#voix6").playMedia();
-//				},2000);
-//				 },
-//			pause	: function() {
-//				
-//			
-//				$(".animpage6").css("animation-play-state", "paused");
-//					
-//        $('#voix6').pauseMedia();
-//					$('#bruit6').pauseMedia();
-//				 }
-//		},
-//		
-//					6: {
-//			play	: function() {
-//			
-//				$(".animpage7").css("animation-play-state", "running");
-//			
-//				
-//				$("#bruit7").playMedia();
-//				setTimeout (function(){
-//				$("#voix7").playMedia();
-//				},2000);
-//				 },
-//			pause	: function() {
-//				
-//			
-//				$(".animpage7").css("animation-play-state", "paused");
-//					
-//        $('#voix7').pauseMedia();
-//					$('#bruit7').pauseMedia();
-//				 }
-//		},
-//		
-//		
-//					7: {
-//			play	: function() {
-//			
-//				$(".animpage8").css("animation-play-state", "running");
-//			
-//				
-//				$("#bruit8").playMedia();
-//				setTimeout (function(){
-//				$("#voix8").playMedia();
-//				},2000);
-//				 },
-//			pause	: function() {
-//				
-//			
-//				$(".animpage8").css("animation-play-state", "paused");
-//					
-//        $('#voix8').pauseMedia();
-//					$('#bruit8').pauseMedia();
-//				 }
-//		}
-
-	//};
-  
-  // mySwiper = new Swiper('.swiper-container',{
-//		pagination: false,
-//		paginationClickable: true,
-//		hashNav: false,
-//		simulateTouch : false,
-//		onlyExternal:true,
-//		onFirstInit: function(s) {
-//			// Arrêt de toutes les animations
-//			$.each(workflow, function(i, v) {
-//				v.pause();
-//			});
-//			
-//			// Exécution des animations du 1er slide
-//			workflow[s.activeIndex].play();
-//		},
-//		onSlideChangeStart: function(s) {
-//			// Arrêt des animations du slide précédent
-//			workflow[s.previousIndex].pause();
-//		},
-//		onSlideChangeEnd: function(s) {
-//			// Exécution des animations du slide actif
-//			workflow[s.activeIndex].play();
-//		}
-//	  })
-//	$('#son1').click(function() {
-//	
-//		$('#voix1').pauseMedia();
-//	});
-//	$('#son2').click(function() {
-//		$('#voix2').pauseMedia();
-//	});
-//	$('#son3').click(function() {
-//		$('#voix3').pauseMedia();
-//	});
-//	$('#son4').click(function() {
-//		$('#voix4').pauseMedia();
-//	});
-//	
-//		$('#son5').click(function() {
-//	
-//		$('#voix5').pauseMedia();
-//	});
-//	$('#son6').click(function() {
-//		$('#voix6').pauseMedia();
-//	});
-//	$('#son7').click(function() {
-//		$('#voix7').pauseMedia();
-//	});
-//	$('#son8').click(function() {
-//		$('#voix8').pauseMedia();
-//	});
-//	
-//	 $('.arrow-left').on('click', function(e){
-//    e.preventDefault()
-//    mySwiper.swipePrev()
-//  })
-//  $('.arrow-right').on('click', function(e){
-//    e.preventDefault()
-//    mySwiper.swipeNext()
-//  })
   </script> 
 <script src="js/encart.js"></script>
 <script src="js/loading.js"></script> 

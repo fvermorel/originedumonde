@@ -74,7 +74,7 @@
         ⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁ <br />
         Le ressentiment de Gaïa grandit à l'égard du tyran qui la faisait souffrir. Son dernier-né, Chronos, le Temps, était plus malin et plus capable que les autres Titans. Les Cyclopes, ses frères aînés, forgèrent une faucille* (On se sert habituellement d’une faucille pour couper des végétaux.) dont Gaïa arma Chronos. Elle lui demanda de la délivrer de la violence d’Ouranos et de lui permettre de faire sortir ses enfants.</div>
     </div>
-  
+  <span class="bulle bulledroite bulle5a animpage5 ">Bientôt, je serai le chef</span>
   </div>
    
      <div id="lunebis" class="animpage5 "></div>
@@ -84,12 +84,19 @@
     <div id="engrenage02" class="animpage5 "></div>
     <div id="engrenage03" class="animpage5 "></div>
     <div id="engrenage04" class="animpage5 "></div>
+     
 </div>
 
 <!-- Fin page 5-->
 
 <div class="swiper-slide page6" data-hash="slide6">
   <div id="text">
+  <div id="video6">
+        	<video  width="100%" height="100%" id="videotest6"  loop="true"    >
+  				<source src="resources/chapter2/b2.mp4" type="video/mp4"   />
+ 
+			</video>
+      	</div>
    <div class="prev"> <img id="prev6" src="img/prev.png" alt="menu" class="arrow-left"/></div>
         
            <div class="next"> <img id="next6" src="img/next.png" alt="menu" class="arrow-right" /> </div> 
@@ -188,12 +195,16 @@
       <div class="texte"> <span class="titre">La construction du monde</span> <br />
         ⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁ <br />
         Les Titans enfermés dans Gaïa sortirent enfin à l’air libre et parmi eux Pontos, l’Océan, et Ouréa, les grandes montagnes. Notre univers prenait forme. Mais à l’époque il n’était pas encore très accueillant : Les continents vont et viennent dans tous les sens et les Titans arpentent le monde. Les choses, heureusement, étaient amenées à changer...</div>
+        
+        
     </div>
     <div id="bulle1BIG">Pour les Grecs, les dieux et les Titans sont partout : par exemple, le Soleil, la Lune et l’aurore sont également des Titans, descendants d’Ouranos et de Gaïa.</div>
     <div id="btnPlus8"></div>
     <div class="chouette2"></div>
     <div id="eau" class="animpage8 pause"></div>
     <div id="lunequatre" class="animpage8 pause"></div>
+     <span class="bulle bulle8a pause animpage8">Je suis l'Océan</span> <span class="bulle bulle8b bulledroite pause animpage8">Je suis la Montagne</span>
+    
     
   </div>
  <!-- Fin page 8-->
@@ -221,7 +232,9 @@ $( document ).ready(function() {
 		$('#voix5').pauseMedia();
 		$(".animpage5").addClass( "pause" );
 		
-	
+	  var video6 = $('#videotest6');
+	  
+       video6[0].play();
 	$( ".swiper-wrapper" ).animate({
   
     left: "-1024px",
@@ -249,6 +262,10 @@ $('#next6').click(function(){
 	$('#voix6').pauseMedia();
 	$("#bruit6").pauseMedia(); 
 	$(".animpage6").addClass( "pause" );
+	
+	  var video6 = $('#videotest6');
+	  
+       video6[0].pause();
 	
 	$( ".swiper-wrapper" ).animate({
   
@@ -299,6 +316,10 @@ $('#prev6').click(function(){
 	$("#bruit6").pauseMedia(); 
 	$(".animpage6").addClass( "pause" );
 	
+	  var video6 = $('#videotest6');
+	  
+       video6[0].pause();
+	
 	$( ".swiper-wrapper" ).animate({
   
     left: "0px",
@@ -323,6 +344,10 @@ $('#prev7').click(function(){
 	$('#voix7').pauseMedia();
 	$("#bruit7").pauseMedia(); 
 	$(".animpage7").addClass( "pause" );
+	
+	  var video6 = $('#videotest6');
+	  
+       video6[0].play();
 	
 	$( ".swiper-wrapper" ).animate({
   

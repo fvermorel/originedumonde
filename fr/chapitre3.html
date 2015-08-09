@@ -84,6 +84,7 @@
         <div id="braise02" class="animpage9 "></div>
         <div id="braise03" class="animpage9 "></div>
     	 <div id="oeil" class="animpage9 "></div>
+          <span class="bulle bulle9a animpage9 bulledroite">Mais c'est injuste</span> <span class="bulle bulle9b animpage9">Je ne veux pas rester ici</span> <span class="bulle bulle9c animpage9">Libérez moi !</span>
         
       </div>
     </div>
@@ -115,6 +116,8 @@
     	 <div id="chronosmains" class="animpage10 pause"></div>
     	 <div id="voilegauche" class="animpage10 pause"></div>
     	 <div id="voiledroit" class="animpage10 pause"></div>
+          <span class="bulle bulle10a animpage10 pause bulledroite">L'important, c'est d'éviter les soucis</span>
+           <span class="bulle bulle10b animpage10 pause bulledroite">Tu ne perds rien pour attendre</span>
       </div>
     </div>
     
@@ -149,6 +152,8 @@
         <div id="bulle1BIG"> La Crète est la plus grande île de Grèce et a très tôt abrité une civilisation brillante. Vous en entendrez parler dans notre autre livre « Minos et Thésée ».</div>
         <div id="btnPlus11"></div>
         <div class="chouette1"></div>
+         <span class="bulle bulle11a animpage11 bulledroite pause">On s'amuse bien</span>
+          <span class="bulle bulle11b animpage11 pause">Ne faites pas trop de bruit, Chronos va vous entendre.</span>
      </div>
     </div>
     
@@ -181,6 +186,8 @@
         <div id="bulle2BIG"> Zeus et Métis auront ensemble une fille, Athéna, qui est une des déesses les plus importantes de la Grèce. Mais cela se passera après notre histoire, dans un autre livre, consacré aux dieux olympiens.</div>
         <div id="btnPlus12"></div>
         <div class="chouette1"></div>
+         <span class="bulle bulle12a animpage12 pause bulledroite">Quelle bonne idée</span>
+          <span class="bulle bulle12b animpage12 pause">Je suis sûre que ça va marcher</span>
      </div>
     </div>
     
@@ -211,6 +218,7 @@
         <div id="lampion01" class="animpage13 pause"></div>
         <div id="lampion02" class="animpage13 pause"></div>
         <div id="lampion03" class="animpage13 pause"></div>
+         <span class="bulle bulle13a animpage13 pause bulledroite">Amusez vous !</span> <span class="bulle bulle13b animpage13 pause">J’ai soif</span> <span class="bulle bulle13c animpage13 pause">Dansons, dansons, DANSONS !</span>
      </div>
     </div>
     
@@ -523,233 +531,6 @@ $('#prev14').click(function(){
  });
 
 
-
-  //var workflow = {
-//  0: {
-//			play	: function() {
-//				$(".animpage1").css("animation-play-state", "running");
-//			
-//				$("#yeuxminos").css("animation-play-state", "running");
-//				$("#yeuxpasiphae").css("animation-play-state", "running");
-//				
-//				$("#bruit1").playMedia();
-//				setTimeout (function(){
-//				$("#voix1").playMedia();
-//				},3000);
-//			},
-//			pause	: function() {
-//				$(".animpage1").css("animation-play-state", "paused");
-//			
-//					$('#voix1').pauseMedia();
-//					$("#bruit1").pauseMedia(); 
-//			}
-//		},
-//		1: {
-//			play	: function() {
-//				$(".animpage2").css("animation-play-state", "running");
-//			
-//				
-//				$("#bruit2").playMedia();
-//				setTimeout (function(){
-//				$("#voix2").playMedia();
-//				},2000);
-//			
-//				 },
-//			pause	: function() {
-//				$(".animpage2").css("animation-play-state", "paused");
-//			
-//				
-//			$('#voix2').pauseMedia();
-//					$('#bruit2').pauseMedia();
-//		
-//				 }
-//		},
-//		2: {
-//			play	: function() {
-//				$(".animpage3").css("animation-play-state", "running");
-//		
-//				
-//				$("#bruit3").playMedia();
-//				setTimeout (function(){
-//				$("#voix3").playMedia();
-//				},2000);
-//				 },
-//			pause	: function() {
-//				$(".animpage3").css("animation-play-state", "paused");
-//			
-//				/*$('#voix3').pauseMedia();*/
-//				$('#voix3').pauseMedia();
-//					$('#bruit3').pauseMedia();
-//				}
-//		},
-//		3: {
-//			play	: function() {
-//			
-//				$(".animpage4").css("animation-play-state", "running");
-//			
-//				
-//				$("#bruit4").playMedia();
-//				setTimeout (function(){
-//				$("#voix4").playMedia();
-//				},2000);
-//				 },
-//			pause	: function() {
-//				
-//			
-//				$(".animpage4").css("animation-play-state", "paused");
-//					
-//        $('#voix4').pauseMedia();
-//					$('#bruit4').pauseMedia();
-//				 }
-//		},
-//		
-//			4: {
-//			play	: function() {
-//			
-//				$(".animpage5").css("animation-play-state", "running");
-//			
-//				
-//				$("#bruit5").playMedia();
-//				setTimeout (function(){
-//				$("#voix5").playMedia();
-//				},2000);
-//				 },
-//			pause	: function() {
-//				
-//			
-//				$(".animpage5").css("animation-play-state", "paused");
-//					
-//        $('#voix5').pauseMedia();
-//					$('#bruit5').pauseMedia();
-//				 }
-//		},
-//		
-//			5: {
-//			play	: function() {
-//			
-//				$(".animpage6").css("animation-play-state", "running");
-//			
-//				
-//				$("#bruit6").playMedia();
-//				setTimeout (function(){
-//				$("#voix6").playMedia();
-//				},2000);
-//				 },
-//			pause	: function() {
-//				
-//			
-//				$(".animpage6").css("animation-play-state", "paused");
-//					
-//        $('#voix6').pauseMedia();
-//					$('#bruit6').pauseMedia();
-//				 }
-//		},
-//		
-//					6: {
-//			play	: function() {
-//			
-//				$(".animpage7").css("animation-play-state", "running");
-//			
-//				
-//				$("#bruit7").playMedia();
-//				setTimeout (function(){
-//				$("#voix7").playMedia();
-//				},2000);
-//				 },
-//			pause	: function() {
-//				
-//			
-//				$(".animpage7").css("animation-play-state", "paused");
-//					
-//        $('#voix7').pauseMedia();
-//					$('#bruit7').pauseMedia();
-//				 }
-//		},
-//		
-//		
-//					7: {
-//			play	: function() {
-//			
-//				$(".animpage8").css("animation-play-state", "running");
-//			
-//				
-//				$("#bruit8").playMedia();
-//				setTimeout (function(){
-//				$("#voix8").playMedia();
-//				},2000);
-//				 },
-//			pause	: function() {
-//				
-//			
-//				$(".animpage8").css("animation-play-state", "paused");
-//					
-//        $('#voix8').pauseMedia();
-//					$('#bruit8').pauseMedia();
-//				 }
-//		}
-
-	//};
-  
-  // mySwiper = new Swiper('.swiper-container',{
-//		pagination: false,
-//		paginationClickable: true,
-//		hashNav: false,
-//		simulateTouch : false,
-//		onlyExternal:true,
-//		onFirstInit: function(s) {
-//			// Arrêt de toutes les animations
-//			$.each(workflow, function(i, v) {
-//				v.pause();
-//			});
-//			
-//			// Exécution des animations du 1er slide
-//			workflow[s.activeIndex].play();
-//		},
-//		onSlideChangeStart: function(s) {
-//			// Arrêt des animations du slide précédent
-//			workflow[s.previousIndex].pause();
-//		},
-//		onSlideChangeEnd: function(s) {
-//			// Exécution des animations du slide actif
-//			workflow[s.activeIndex].play();
-//		}
-//	  })
-//	$('#son1').click(function() {
-//	
-//		$('#voix1').pauseMedia();
-//	});
-//	$('#son2').click(function() {
-//		$('#voix2').pauseMedia();
-//	});
-//	$('#son3').click(function() {
-//		$('#voix3').pauseMedia();
-//	});
-//	$('#son4').click(function() {
-//		$('#voix4').pauseMedia();
-//	});
-//	
-//		$('#son5').click(function() {
-//	
-//		$('#voix5').pauseMedia();
-//	});
-//	$('#son6').click(function() {
-//		$('#voix6').pauseMedia();
-//	});
-//	$('#son7').click(function() {
-//		$('#voix7').pauseMedia();
-//	});
-//	$('#son8').click(function() {
-//		$('#voix8').pauseMedia();
-//	});
-//	
-//	 $('.arrow-left').on('click', function(e){
-//    e.preventDefault()
-//    mySwiper.swipePrev()
-//  })
-//  $('.arrow-right').on('click', function(e){
-//    e.preventDefault()
-//    mySwiper.swipeNext()
-//  })
   </script> 
 <script src="js/encart.js"></script>
 <script src="js/loading.js"></script> 
