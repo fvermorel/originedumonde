@@ -180,7 +180,7 @@
        <span class="bulle bulle3a animpage3  pause">J’en ai assez</span>
  <!--   <div id="ventre" class="animpage3 pause"></div>-->
     
-    <div class="chouette" id="chouette3"></div>
+    <div  id="chouette3"></div>
 
   </div>
             
@@ -496,7 +496,55 @@ $('#prev4').click(function(){
 	
 });
 
-
+  	$play1 = true;
+	  	$play2 = true;
+	  	$play3 = true;
+	  	$play4 = true;
+		$('#son1').click(function() {
+			$("#son1").toggleClass("sonhover");
+			if ($play1) {
+		        $('#voix1').pauseMedia();
+		        $play1 = false;
+			}
+			else {
+				$('#voix1').playMedia();
+				$play1 = true;
+			}
+        });
+		$('#son2').click(function() {
+			$("#son2").toggleClass("sonhover");
+			if ($play2) {
+		        $('#voix2').pauseMedia();
+		        $play2 = false;
+			}
+			else {
+				$('#voix2').playMedia();
+				$play2 = true;
+			}
+        });
+		$('#son3').click(function() {
+			$("#son3").toggleClass("sonhover");
+			if ($play3) {
+		        $('#voix3').pauseMedia();
+		        $play3 = false;
+			}
+			else {
+				$('#voix3').playMedia();
+				$play3 = true;
+			}
+        });
+		$('#son4').click(function() {
+			$("#son4").toggleClass("sonhover");
+			if ($play4) {
+		        $('#voix4').pauseMedia();
+		        $play4 = false;
+			}
+			else {
+				$('#voix4').playMedia();
+				$play4 = true;
+			}
+        });
+	
         
  });
 

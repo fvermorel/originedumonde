@@ -7,22 +7,7 @@
 	left: 32.97%;
 	top: 64.95%;
 }
-#bulle1BIG {
-	background-image: url("../img/bulle1BIG-invers.png");
-	background-repeat: no-repeat;
-	color: #913237;
-	display: none;
-	font-family: 'Lucida Grande', Geneva, sans-serif;
-	font-size: 0.82em;
-	height: 22%;
-	left: 4%;
-	line-height: 1.5em;
-	padding: 9% 10% 10% 8%;
-	position: fixed;
-	top: 35%;
-	width: 22%;
-	z-index: 6;
-}
+
 
 #lune {
     background-image: url("../resources/chapter1/img/h/luneinverse.png");

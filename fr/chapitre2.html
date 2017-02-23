@@ -80,7 +80,7 @@
         ⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁ <br />
         Le ressentiment de Gaïa grandit à l'égard du tyran qui la faisait souffrir. Son dernier-né, Chronos, le Temps, était plus malin et plus capable que les autres Titans. Les Cyclopes, ses frères aînés, forgèrent une faucille dont Gaïa arma Chronos. Elle lui demanda de la délivrer de la violence d’Ouranos et de lui permettre de faire sortir ses enfants.</div>
     </div>
-  <span class="bulle bulledroite bulle5a animpage5 ">Bientôt, je serai le chef</span>
+  <span class="bulle bulledroite bulle5a animpage5  pause">Bientôt, je serai le chef</span>
   </div>
    
      <div id="lunebis" class="animpage5 "></div>
@@ -122,9 +122,9 @@
         ⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁ <br />
         Chronos trancha le lien qui unissait la Terre et le Ciel. Il se fit alors dans l'univers un hurlement épouvantable : pour la première fois du sang avait été versé ! Ouranos s’envola très loin pour devenir la voûte céleste. Il ne devait plus jamais se rapprocher de Gaïa. Sa place était désormais tout en haut de l’univers. Il y avait enfin un espace dans lequel les créatures pouvaient naître et grandir.</div>
     </div>
-    <div id="bulle6BIG">Les gouttes de sang engendreront bien des monstres que vous retrouverez dans nos prochains livres : les Érynnies, qui punissent les criminels, ou l’Hydre de Lerne, qui sera détruite par Hercule au cours de ses douze travaux...</div>
-    <div id="btnPlus6"></div>
-    <div class="chouette1"></div>
+    <div id="bulle2BIG">Les gouttes de sang engendreront bien des monstres que vous retrouverez dans nos prochains livres : les Érynnies, qui punissent les criminels, ou l’Hydre de Lerne, qui sera détruite par Hercule au cours de ses douze travaux...</div>
+
+        <div  id="chouette2"></div>
  
   </div>
   
@@ -153,9 +153,9 @@
         ⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁⠁ <br />
         Les gouttes de sang plurent sur la Terre et chacune d'elles engendra un monstre terrifiant qui devait causer bien des malheurs à l'avenir. Mais le bout de chair que Chronos avait tranché eut un autre destin : il tomba dans la mer, où il se mélangea avec l'écume. Il y eut alors un bouillonnement étonnant. En émergea un grand coquillage, et quand ce coquillage flotta vers le rivage, il s’ouvrit. En sortit la créature la plus belle que devait jamais connaître l'univers : Aphrodite, la déesse de l'amour, sans laquelle notre Terre aurait été bien triste.</div>
     </div>
-    <div id="bulle4BIG">Si Aphrodite est la déesse de l’amour, elle n'en est pas moins très dangereuse. Vous la retrouverez dans notre prochain livre : « Amour et Psyché »..</div>
-    <div id="btnPlus7"></div>
-    <div class="chouette1"></div>
+    <div id="bulle3BIG">Si Aphrodite est la déesse de l’amour, elle n'en est pas moins très dangereuse. Vous la retrouverez dans notre prochain livre : « Amour et Psyché »..</div>
+
+   <div  id="chouette3"></div>
 
   </div>
         <div id="aphrodite" class="animpage7 pause"></div>
@@ -175,7 +175,7 @@
       <div id="lecture">
         <div id="ecrit" class="ecrit"> </div>
         <div id="son8" class="son">
-          <audio id="voix7" preload="auto" autostart="false" type="audio/mpeg">
+          <audio id="voix8" preload="auto" autostart="false" type="audio/mpeg">
             <source src="voix/chapitre8.mp3" autostart="false" type="audio/mpeg"  >
           </audio>
         </div>
@@ -189,12 +189,12 @@
         
         
     </div>
-    <div id="bulle1BIG">Pour les Grecs, les dieux et les Titans sont partout : par exemple, le Soleil, la Lune et l’aurore sont également des Titans, descendants d’Ouranos et de Gaïa.</div>
-    <div id="btnPlus8"></div>
-    <div class="chouette2"></div>
+    <div id="bulle4BIG">Pour les Grecs, les dieux et les Titans sont partout : par exemple, le Soleil, la Lune et l’aurore sont également des Titans, descendants d’Ouranos et de Gaïa.</div>
+
+    <div id="chouette4"></div>
     <div id="eau" class="animpage8 pause"></div>
     <div id="lunequatre" class="animpage8 pause"></div>
-     <span class="bulle bulle8a pause animpage8">Je suis l'Océan</span> <span class="bulle bulle8b bulledroite pause animpage8">Je suis la Montagne</span>
+     <span class="bulle bulle8a pause animpage8">Je suis l'Océan !</span> <span class="bulle bulle8b bulledroite pause animpage8">Je suis la Montagne !</span><span class="bulle bulle8c bullegauche pause animpage8">Je suis le chef !</span>
     
     
   </div>
@@ -444,6 +444,56 @@ $('#prev8').click(function(){
   
 	
 });
+
+
+	 	$play5 = true;
+	  	$play6 = true;
+	  	$play7 = true;
+	  	$play8 = true;
+		$('#son5').click(function() {
+			$("#son5").toggleClass("sonhover");
+			if ($play5) {
+		        $('#voix5').pauseMedia();
+		        $play5 = false;
+			}
+			else {
+				$('#voix5').playMedia();
+				$play5 = true;
+			}
+        });
+		$('#son6').click(function() {
+			$("#son6").toggleClass("sonhover");
+			if ($play6) {
+		        $('#voix6').pauseMedia();
+		        $play6 = false;
+			}
+			else {
+				$('#voix6').playMedia();
+				$play6 = true;
+			}
+        });
+		$('#son7').click(function() {
+			$("#son7").toggleClass("sonhover");
+			if ($play7) {
+		        $('#voix7').pauseMedia();
+		        $play7 = false;
+			}
+			else {
+				$('#voix7').playMedia();
+				$play7 = true;
+			}
+        });
+		$('#son8').click(function() {
+			$("#son8").toggleClass("sonhover");
+			if ($play8) {
+		        $('#voix8').pauseMedia();
+		        $play8 = false;
+			}
+			else {
+				$('#voix8').playMedia();
+				$play8 = true;
+			}
+        });
 
         
  });

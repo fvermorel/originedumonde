@@ -631,25 +631,27 @@ h3 a{
 	width: 90%;
 }
 #bulle1BIG {
-/*	background-image: url("../img/bulle1BIG.png");*/	
-    background-color: #666666;
+   background-color: #666666;
     background-repeat: no-repeat;
     border-radius: 58%;
     box-shadow: 1px 1px 12px #555555;
     color: #FFFFFF;
-    visibility:hidden;
+	opacity:0;
+    
     font-size: 0.82em;
     height: 20%;
     line-height: 1.5em;
-    opacity: 0.8;
+    top:20%;
+	left:34%;
     padding: 9% 10% 10% 8%;
     position: absolute;
     width: 16%;
-    z-index: 10;
+    z-index: 9;
     font-family: "Offside-Regular";
     text-align: center;
-	  top:20%;
-	left:34%;
+		-webkit-transition: opacity 2s ease-in-out;
+	-moz-transition: opacity 2s ease-in-out;
+	transition: opacity 2s ease-in-out;
 }
 
 #bulle2BIG {
@@ -696,6 +698,9 @@ h3 a{
     z-index: 9;
 	  top:20%;
 	left:34%;
+			-webkit-transition: opacity 2s ease-in-out;
+	-moz-transition: opacity 2s ease-in-out;
+	transition: opacity 2s ease-in-out;
 }
 #bulle4BIG {
 /*	background-image: url("../img/bulle1BIG.png");*/	
@@ -717,6 +722,9 @@ h3 a{
     text-align: center;
 	  top:20%;
 	left:34%;
+			-webkit-transition: opacity 2s ease-in-out;
+	-moz-transition: opacity 2s ease-in-out;
+	transition: opacity 2s ease-in-out;
 }
 #bulle5BIG {
 /*	background-image: url("../img/bulle1BIG.png");*/	
@@ -738,6 +746,9 @@ h3 a{
     text-align: center;
 	  top:20%;
 	left:34%;
+			-webkit-transition: opacity 2s ease-in-out;
+	-moz-transition: opacity 2s ease-in-out;
+	transition: opacity 2s ease-in-out;
 }
 #bulle6BIG {
 /*	background-image: url("../img/bulle1BIG.png");*/	
@@ -759,6 +770,9 @@ h3 a{
     text-align: center;
 	  top:20%;
 	left:34%;
+			-webkit-transition: opacity 2s ease-in-out;
+	-moz-transition: opacity 2s ease-in-out;
+	transition: opacity 2s ease-in-out;
 }
 .chouette {
 	position: absolute;
@@ -781,6 +795,46 @@ h3 a{
 }
 
 #chouette2 {
+		position: absolute;
+	background: url("../img/mini-chouette.png") no-repeat;
+	height: 8%;
+	width: 6%;
+	left: 82%;
+	top: 86%;
+	z-index: 20;
+}
+
+#chouette3 {
+		position: absolute;
+	background: url("../img/mini-chouette.png") no-repeat;
+	height: 8%;
+	width: 6%;
+	left: 82%;
+	top: 86%;
+	z-index: 20;
+}
+
+#chouette4 {
+		position: absolute;
+	background: url("../img/mini-chouette.png") no-repeat;
+	height: 8%;
+	width: 6%;
+	left: 82%;
+	top: 86%;
+	z-index: 20;
+}
+
+#chouette5 {
+		position: absolute;
+	background: url("../img/mini-chouette.png") no-repeat;
+	height: 8%;
+	width: 6%;
+	left: 82%;
+	top: 86%;
+	z-index: 20;
+}
+
+#chouette6 {
 		position: absolute;
 	background: url("../img/mini-chouette.png") no-repeat;
 	height: 8%;

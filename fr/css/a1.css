@@ -1298,6 +1298,15 @@ opacity:0;
 	animation: bulle8b1 40s ease-in;
 	
 }
+.bulle8c {
+	top: 2%;
+    left: 75%;
+	
+	-webkit-animation: bulle8c1 40s ease-in;
+	-moz-animation: bulle8c1 40s ease-in;
+	animation: bulle8c1 40s ease-in;
+	
+}
 
 @-webkit-keyframes bulle8a1 {
 0% {
@@ -1399,6 +1408,58 @@ opacity:0;
  opacity:1;
 }
  75% {
+ opacity:0;
+}
+}
+
+@-webkit-keyframes bulle8c1 {
+0% {
+opacity:0;
+}
+50% {
+opacity:0;
+}
+ 55% {
+ opacity:1;
+}
+ 90% {
+ opacity:1;
+}
+ 95% {
+ opacity:0;
+}
+}
+ @-moz-keyframes bulle8c1 {
+0% {
+opacity:0;
+}
+50% {
+opacity:0;
+}
+ 55% {
+ opacity:1;
+}
+ 90% {
+ opacity:1;
+}
+ 95% {
+ opacity:0;
+}
+}
+ @keyframes bulle8c1 {
+0% {
+opacity:0;
+}
+50% {
+opacity:0;
+}
+ 55% {
+ opacity:1;
+}
+ 90% {
+ opacity:1;
+}
+ 95% {
  opacity:0;
 }
 }

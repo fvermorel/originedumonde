@@ -87,9 +87,9 @@
         <div id="bulle1BIG"> Le mont Olympe est la montagne la plus haute de Grèce : son sommet culmine à 2 917 mètres. C’est pour ça que les anciens pensaient que les dieux y vivaient. À ne pas confondre avec la ville Olympie, où se sont déroulés... les premiers jeux olympiques !</div>
        <!-- <div id="faucille" class="animpage15 "></div>
         <div id="nuage" class="animpage15 "></div>-->
-        <div id="btnPlus15"></div>
-        <div class="chouette1"></div>
-         <span class="bulle bulle15a animpage15">A l'attaque !</span> <span class="bulle bulle15b animpage15">Renvoyons les dans le tartare !</span> <span class="bulle bulle15c animpage15 bulledroite">Ca ne va pas se passer comme ça.</span>
+      
+        <div id="chouette1"></div>
+         <span class="bulle bulle15a animpage15  pause">A l'attaque !</span> <span class="bulle bulle15b animpage15  pause">Renvoyons les dans le tartare !</span> <span class="bulle bulle15c animpage15 bulledroite  pause">Ca ne va pas se passer comme ça.</span>
    
       </div>
     </div>
@@ -120,9 +120,9 @@
         <div id="eclair"  class="animpage16 pause"></div>
         <div id="lune" class="animpage16 pause"></div>
         <div id="oeil" class="animpage16 pause"></div>
-        <div id="bulle1BIG">La foudre, pour les Grecs, venait directement de Zeus : c'était la manifestation de la colère du roi des dieux et il fallait obligatoirement la prendre en compte.</div>
-        <div id="btnPlus16"></div>
-        <div class="chouette1"></div>
+        <div id="bulle2BIG">La foudre, pour les Grecs, venait directement de Zeus : c'était la manifestation de la colère du roi des dieux et il fallait obligatoirement la prendre en compte.</div>
+        
+        <div id="chouette2"></div>
         
          <span class="bulle bulle16a animpage16 pause">Enfin libres !</span>
           <span class="bulle bulle16b animpage16 pause">Merci Zeus</span>
@@ -182,8 +182,8 @@
         </div>
         <div id="eclairstyphon" class="animpage18 pause"></div>
         <div id="bouche" class="animpage18 pause"></div>
-        <div id="btnPlus15"></div>
-        <div class="chouette1"></div>
+        
+    
       </div>
     </div>
     
@@ -211,8 +211,8 @@
             Les dieux avaient triomphé et Gaïa, boudeuse, s'enferma dans un silence éternel. Rien ne devait jamais plus remettre en question leur pouvoir. Ce fut le début de l’âge d’or, une époque de paix et d’harmonie bienheureuse. Mais ce monde, ce n'est pas encore le nôtre, et il devait encore changer avant que les hommes puissent en fouler le sol.</div>
         </div>
         <div id="etoiles" class="animpage19 pause"></div>
-     <span class="bulle animpage19 bulle19a">Hourra !</span>
-          <span class="bulle animpage19 bulledroite bulle19b">Enfin nous avons gagné</span>
+     <span class="bulle animpage19 bulle19a pause">Hourra !</span>
+          <span class="bulle animpage19 bulledroite bulle19b pause">Enfin nous avons gagné</span>
       </div>
     </div>
  <!-- Fin page 19-->
@@ -515,8 +515,69 @@ $('#prev19').click(function(){
   
 	
 });
+$play15 = true;
+	  	$play16 = true;
+		$play17 = true;
+	  	$play18 = true;
+		$play19 = true;
 
-
+	$('#son15').click(function() {
+			$("#son15").toggleClass("sonhover");
+			if ($play15) {
+		        $('#voix15').pauseMedia();
+		        $play15 = false;
+			}
+			else {
+				$('#voix15').playMedia();
+				$play15 = true;
+			}
+        });
+		$('#son16').click(function() {
+			$("#son16").toggleClass("sonhover");
+			if ($play16) {
+		        $('#voix16').pauseMedia();
+		        $play16 = false;
+			}
+			else {
+				$('#voix16').playMedia();
+				$play16 = true;
+			}
+        });
+		
+		$('#son17').click(function() {
+			$("#son17").toggleClass("sonhover");
+			if ($play17) {
+		        $('#voix17').pauseMedia();
+		        $play17 = false;
+			}
+			else {
+				$('#voix17').playMedia();
+				$play17 = true;
+			}
+        });
+		$('#son18').click(function() {
+			$("#son18").toggleClass("sonhover");
+			if ($play18) {
+		        $('#voix18').pauseMedia();
+		        $play18 = false;
+			}
+			else {
+				$('#voix18').playMedia();
+				$play18 = true;
+			}
+        });
+		
+		$('#son19').click(function() {
+			$("#son19").toggleClass("sonhover");
+			if ($play19) {
+		        $('#voix19').pauseMedia();
+		        $play19 = false;
+			}
+			else {
+				$('#voix19').playMedia();
+				$play19 = true;
+			}
+        });
         
  });
 

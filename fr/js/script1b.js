@@ -21,7 +21,7 @@
         startApp();
     });
 	
-	 $('.encart').animate({
+	$('.encart').animate({
 
           opacity: 1
 
@@ -33,12 +33,11 @@
 
           $(".ecrit").click(function (){
 
-          $(".texte").fadeToggle("slow", "linear");
+          $(".encart").toggleClass("encartbaisse");
 
-          $("#ecrit").toggleClass("ecrit").toggleClass("ecrithover");
+          $(".ecrit").toggleClass("ecrithover");
 
           });
-	
 	
 	
     preloadChapter(2);
