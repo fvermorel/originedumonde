@@ -10,7 +10,7 @@
 
 
 #lune {
-    background-image: url("../resources/chapter1/img/h/luneinverse.png");
+    background-image: url("../../resources/chapter1/img/h/luneinverse.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 30%;
@@ -136,7 +136,7 @@
 }
 
 #oeil{
-    background-image: url("../resources/chapter2/img/a/oeil.png");
+    background-image: url("../../resources/chapter2/img/a/oeil.png");
     background-size: 100% 100%;
     height: 2%;
     left: 49.3%;
@@ -183,7 +183,7 @@
 }
 
 #lunebis {
-    background-image: url("../resources/chapter1/img/h/luneinverse.png");
+    background-image: url("../../resources/chapter1/img/h/luneinverse.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 30%;
@@ -219,7 +219,7 @@
 }
 
 #chronosmains {
-    background-image: url("../resources/chapter2/img/b/chronosmains.png");
+    background-image: url("../../resources/chapter2/img/b/chronosmains.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 31%;
@@ -255,7 +255,7 @@
 }
 
 #voilegauche {
-    background-image: url("../resources/chapter2/img/b/voilegauche.png");
+    background-image: url("../../resources/chapter2/img/b/voilegauche.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 30%;
@@ -291,7 +291,7 @@
 }
 
 #voiledroit {
-    background-image: url("../resources/chapter2/img/b/voiledroit.png");
+    background-image: url("../../resources/chapter2/img/b/voiledroit.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 30%;
@@ -340,7 +340,7 @@
 }
 
 #queue {
-    background-image: url("../resources/chapter2/img/c/queue.png");
+    background-image: url("../../resources/chapter2/img/c/queue.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 14%;
@@ -367,7 +367,7 @@
 }
 
 #abeilles {
-    background-image: url("../resources/chapter2/img/c/abeilles.png");
+    background-image: url("../../resources/chapter2/img/c/abeilles.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 30%;
@@ -394,7 +394,7 @@
 }
 
 #poisson01 {
-    background-image: url("../resources/chapter2/img/c/poisson01.png");
+    background-image: url("../../resources/chapter2/img/c/poisson01.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 2%;
@@ -422,7 +422,7 @@
 }
 
 #poisson02 {
-    background-image: url("../resources/chapter2/img/c/poisson02.png");
+    background-image: url("../../resources/chapter2/img/c/poisson02.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 2%;
@@ -450,7 +450,7 @@
 }
 
 #poisson03 {
-    background-image: url("../resources/chapter2/img/c/poisson03.png");
+    background-image: url("../../resources/chapter2/img/c/poisson03.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 2%;
@@ -491,7 +491,7 @@
 	width: 22%;
 }
 #oeil01{
-    background-image: url("../resources/chapter2/img/d/oeil01.png");
+    background-image: url("../../resources/chapter2/img/d/oeil01.png");
     background-size: 100% 100%;
     bottom: 56%;
     height: 2%;
@@ -525,7 +525,7 @@
 }
 
 #oeil02{
-    background-image: url("../resources/chapter2/img/d/oeil02.png");
+    background-image: url("../../resources/chapter2/img/d/oeil02.png");
     background-size: 100% 100%;
     bottom: 56%;
     height: 2%;
@@ -559,8 +559,8 @@
 }
 
 #voile01{
-    background-image: url("../resources/chapter2/img/d/voile01.png");
-    background-image: url("../resources/chapter2/img/d/voile01.png");
+    background-image: url("../../resources/chapter2/img/d/voile01.png");
+    background-image: url("../../resources/chapter2/img/d/voile01.png");
     background-size: 100% 100%;
     bottom: 30%;
     height: 48%;
@@ -587,7 +587,7 @@
 /*page 5*/
 
 #danseuse{
-    background-image: url("../resources/chapter2/img/e/danseuse.png");
+    background-image: url("../../resources/chapter2/img/e/danseuse.png");
     background-size: 100% 100%;
     height: 44%;
     left: 62%;
@@ -612,7 +612,7 @@
 }
 
 #lampion01{
-    background-image: url("../resources/chapter2/img/e/lampion01.png");
+    background-image: url("../../resources/chapter2/img/e/lampion01.png");
     background-size: 100% 100%;
     height: 36%;
     left: -1%;
@@ -637,7 +637,7 @@
 }
 
 #lampion02{
-    background-image: url("../resources/chapter2/img/e/lampion02.png");
+    background-image: url("../../resources/chapter2/img/e/lampion02.png");
     background-size: 100% 100%;
     height: 27%;
     left: 56%;
@@ -662,7 +662,7 @@
 }
 
 #lampion03{
-    background-image: url("../resources/chapter2/img/e/lampion03.png");
+    background-image: url("../../resources/chapter2/img/e/lampion03.png");
     background-size: 100% 100%;
     height: 46%;
     left: 76.5%;
@@ -689,7 +689,7 @@
 /*page 6*/
 
 #dieu01{
-    background-image: url("../resources/chapter2/img/f/dieu01.png");
+    background-image: url("../../resources/chapter2/img/f/dieu01.png");
     background-size: 100% 100%;
     height: 40%;
     left: 28%;
@@ -718,7 +718,7 @@
 }
 
 #dieu02{
-    background-image: url("../resources/chapter2/img/f/dieu02.png");
+    background-image: url("../../resources/chapter2/img/f/dieu02.png");
     background-size: 100% 100%;
     height: 40%;
     left: 28%;
@@ -747,7 +747,7 @@
 }
 
 #dieu03{
-    background-image: url("../resources/chapter2/img/f/dieu03.png");
+    background-image: url("../../resources/chapter2/img/f/dieu03.png");
     background-size: 100% 100%;
     height: 40%;
     left: 28%;
@@ -776,7 +776,7 @@
 }
 
 #dieu04{
-    background-image: url("../resources/chapter2/img/f/dieu04.png");
+    background-image: url("../../resources/chapter2/img/f/dieu04.png");
     background-size: 100% 100%;
     height: 40%;
     left: 28%;
@@ -805,7 +805,7 @@
 }
 
 #dieu05{
-    background-image: url("../resources/chapter2/img/f/dieu05.png");
+    background-image: url("../../resources/chapter2/img/f/dieu05.png");
     background-size: 100% 100%;
     height: 40%;
     left: 28%;
