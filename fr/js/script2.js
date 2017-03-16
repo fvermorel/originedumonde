@@ -13,10 +13,10 @@
         "../fr/voices/chapitre6.mp3",
         "../fr/voices/chapitre7.mp3",
 		"../fr/voices/chapitre8.mp3",		
-		"../fr/resources/chapter2/img/1.jpg",
-		"../fr/resources/chapter2/img/2.jpg",
-		"../fr/resources/chapter2/img/3.jpg",
-		"../fr/resources/chapter2/img/4.jpg",
+		"../resources/chapter2/img/1.jpg",
+		"../resources/chapter2/img/2.jpg",
+		"../resources/chapter2/img/3.jpg",
+		"../resources/chapter2/img/4.jpg",
     ], function() {
         startApp();
     });

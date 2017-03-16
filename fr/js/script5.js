@@ -16,10 +16,10 @@
         "../fr/voices/chapitre21.mp3",
 		"../fr/voices/chapitre22.mp3",	
 			
-		"../fr/resources/chapter5/img/1.jpg",
-		"../fr/resources/chapter5/img/2.jpg",
-		"../fr/resources/chapter5/img/3.jpg",
-		"../fr/resources/chapter5/img/4.jpg",
+		"../resources/chapter5/img/1.jpg",
+		"../resources/chapter5/img/2.jpg",
+		"../resources/chapter5/img/3.jpg",
+		"../resources/chapter5/img/4.jpg",
 	
     ], function() {
         startApp();

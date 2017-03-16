@@ -19,12 +19,12 @@
 		"../fr/voices/chapitre16.mp3",	
 		"../fr/voices/chapitre17.mp3",
 		"../fr/voices/chapitre18.mp3",		
-		"../fr/resources/chapter4/img/1.jpg",
-		"../fr/resources/chapter4/img/2.jpg",
-		"../fr/resources/chapter4/img/3.jpg",
-		"../fr/resources/chapter4/img/4.jpg",
-		"../fr/resources/chapter4/img/5.jpg",
-		"../fr/resources/chapter4/img/6.jpg",
+		"../resources/chapter4/img/1.jpg",
+		"../resources/chapter4/img/2.jpg",
+		"../resources/chapter4/img/3.jpg",
+		"../resources/chapter4/img/4.jpg",
+		"../resources/chapter4/img/5.jpg",
+		"../resources/chapter4/img/6.jpg",
     ], function() {
         startApp();
     });
