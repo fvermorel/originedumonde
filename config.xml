@@ -13,6 +13,7 @@
         Le Chaos originel, la grande guerre des titans et des dieux et l’avénement de Zeus, roi du monde.
     </description>
 
+<<<<<<< HEAD
  <author href="http://www.oracle-editions.com/" email="fvermorel@gmail.com">
       Oracle Editions
     </author>
@@ -38,5 +39,13 @@
 <preference name="webviewbounce" value="false" />
 
 	<plugin name="cordova-plugin-inappbrowser" spec="1.1.1" />
+=======
+    <author href="http://www.oracle-editions.com/" email="fvermorel@gmail.com">
+      Oracle Editions
+    </author>
+	<preference name="orientation" value="landscape" />
+	<icon src="icon.png" />
+	<gap:splash src="splash.png" />
+>>>>>>> 38a23c2d396e4518b8efc66a08cfe82a23a9b88a
 
 </widget>

@@ -21,7 +21,11 @@
         startApp();
     });
 	
+<<<<<<< HEAD
 	$('.encart').animate({
+=======
+	 $('.encart').animate({
+>>>>>>> 38a23c2d396e4518b8efc66a08cfe82a23a9b88a
 
           opacity: 1
 
@@ -33,13 +37,23 @@
 
           $(".ecrit").click(function (){
 
+<<<<<<< HEAD
           $(".encart").toggleClass("encartbaisse");
 
           $(".ecrit").toggleClass("ecrithover");
+=======
+          $(".texte").fadeToggle("slow", "linear");
+
+          $("#ecrit").toggleClass("ecrit").toggleClass("ecrithover");
+>>>>>>> 38a23c2d396e4518b8efc66a08cfe82a23a9b88a
 
           });
 	
 	
+<<<<<<< HEAD
+=======
+	
+>>>>>>> 38a23c2d396e4518b8efc66a08cfe82a23a9b88a
     preloadChapter(2);
     $("#chapters").load("menu.html", function() {  //alert('Load was performed.');
     });

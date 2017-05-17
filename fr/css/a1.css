@@ -405,7 +405,11 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 37%;
+<<<<<<< HEAD
     left: 18.5%;
+=======
+    left: 6%;
+>>>>>>> 38a23c2d396e4518b8efc66a08cfe82a23a9b88a
     position: absolute;
     top: 11%;
     width: 5%;	
@@ -431,7 +435,11 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 2.5%;
+<<<<<<< HEAD
     left: 19.68%;
+=======
+    left: 7.18%;
+>>>>>>> 38a23c2d396e4518b8efc66a08cfe82a23a9b88a
     position: absolute;
     bottom: 69.3%;    
 	 width: 2.2%;	
@@ -466,7 +474,11 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 4%;
+<<<<<<< HEAD
     left: 21.7%;
+=======
+    left: 9.2%;
+>>>>>>> 38a23c2d396e4518b8efc66a08cfe82a23a9b88a
     position: absolute;
     top: 15%;
     width: 0.4%;	
@@ -492,7 +504,11 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 5%;
+<<<<<<< HEAD
     left: 20.72%;
+=======
+    left: 8.22%;
+>>>>>>> 38a23c2d396e4518b8efc66a08cfe82a23a9b88a
     position: absolute;
     top: 15%;
     width: 0.5%;	
@@ -518,7 +534,11 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 3%;
+<<<<<<< HEAD
     left: 22%;
+=======
+    left: 9.5%;
+>>>>>>> 38a23c2d396e4518b8efc66a08cfe82a23a9b88a
     position: absolute;
     top: 13%;
     width: 0.3%;	
@@ -544,7 +564,11 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 5%;
+<<<<<<< HEAD
     left: 16.15%;
+=======
+    left: 3.65%;
+>>>>>>> 38a23c2d396e4518b8efc66a08cfe82a23a9b88a
     position: absolute;
     top: 59%;
     width: 0.5%;	
@@ -977,7 +1001,11 @@
     height: 50%;
     position: absolute;
     top: 50%;
+<<<<<<< HEAD
     width: 12.5%;
+=======
+    width: 12.43%;
+>>>>>>> 38a23c2d396e4518b8efc66a08cfe82a23a9b88a
 	-webkit-animation: mer 3s linear infinite alternate;
 	-moz-animation: mer 3s linear infinite alternate;
 	animation: mer 3s linear infinite alternate;
@@ -1000,7 +1028,11 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 29%;
+<<<<<<< HEAD
     left: 41.3%;
+=======
+    left: 28.8%;
+>>>>>>> 38a23c2d396e4518b8efc66a08cfe82a23a9b88a
     position: absolute;
     top: 61%;
     width: 5%;
@@ -1026,10 +1058,17 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 100%;
+<<<<<<< HEAD
     left: 37.25%;
     position: absolute;
     top: 0;
     width: 12.78%;	
+=======
+    left: 24.75%;
+    position: absolute;
+    top: 0;
+    width: 13%;	
+>>>>>>> 38a23c2d396e4518b8efc66a08cfe82a23a9b88a
 	-webkit-animation: aphrodite 15s;
 	-moz-animation: aphrodite 15s;
 	animation: aphrodite 15s;
@@ -1117,7 +1156,11 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 34%;
+<<<<<<< HEAD
     left: 89.5%;
+=======
+    left: 77%;
+>>>>>>> 38a23c2d396e4518b8efc66a08cfe82a23a9b88a
     position: absolute;
     top: -9%;
     width: 23%;
@@ -1144,7 +1187,11 @@
 100% {-webkit-transform:rotate(-30deg);  opacity:0.5}
 }
 .chapitre1 {
+<<<<<<< HEAD
   width: 6120px;
+=======
+  width: 4096px;
+>>>>>>> 38a23c2d396e4518b8efc66a08cfe82a23a9b88a
   height: 768px;
 }
 .chapitre2 {
@@ -1298,6 +1345,7 @@ opacity:0;
 	animation: bulle8b1 40s ease-in;
 	
 }
+<<<<<<< HEAD
 .bulle8c {
 	top: 2%;
     left: 75%;
@@ -1307,6 +1355,8 @@ opacity:0;
 	animation: bulle8c1 40s ease-in;
 	
 }
+=======
+>>>>>>> 38a23c2d396e4518b8efc66a08cfe82a23a9b88a
 
 @-webkit-keyframes bulle8a1 {
 0% {
@@ -1410,6 +1460,7 @@ opacity:0;
  75% {
  opacity:0;
 }
+<<<<<<< HEAD
 }
 
 @-webkit-keyframes bulle8c1 {
@@ -1462,4 +1513,6 @@ opacity:0;
  95% {
  opacity:0;
 }
+=======
+>>>>>>> 38a23c2d396e4518b8efc66a08cfe82a23a9b88a
 }

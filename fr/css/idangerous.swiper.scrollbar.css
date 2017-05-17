@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .swiper-scrollbar {
 	border-radius: 10px;
 	position: relative;
@@ -13,4 +14,21 @@
 }
 .swiper-scrollbar-cursor-drag {
 	cursor: move;
+=======
+.swiper-scrollbar {
+	border-radius: 10px;
+	position: relative;
+	-ms-touch-action: none;
+	background: rgba(0,0,0,0.1)
+}
+.swiper-scrollbar-drag {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	background: rgba(0,0,0,0.5);
+	border-radius: 10px;
+}
+.swiper-scrollbar-cursor-drag {
+	cursor: move;
+>>>>>>> 38a23c2d396e4518b8efc66a08cfe82a23a9b88a
 }

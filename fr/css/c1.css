@@ -471,7 +471,11 @@
 100% {opacity:0.5;}
 }
 .chapitre4{
+<<<<<<< HEAD
 	width:6144px;
+=======
+	width:5120px;
+>>>>>>> 38a23c2d396e4518b8efc66a08cfe82a23a9b88a
 	
 }
 

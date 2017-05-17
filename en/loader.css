@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #preloader {
 	position: absolute;
 	top: 0;
@@ -15,4 +16,23 @@
 #loader * {
 	width: 1px;
 	height: 1px;
+=======
+#preloader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	opacity:1;
+    background-color: #F2F2F2;
+/*	background-image: url(resources/couv/img/couverture-chargement.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+#loader * {
+	width: 1px;
+	height: 1px;
+>>>>>>> 38a23c2d396e4518b8efc66a08cfe82a23a9b88a
 }

@@ -7,7 +7,26 @@
 	left: 32.97%;
 	top: 64.95%;
 }
+<<<<<<< HEAD
 
+=======
+#bulle1BIG {
+	background-image: url("../img/bulle1BIG-invers.png");
+	background-repeat: no-repeat;
+	color: #913237;
+	display: none;
+	font-family: 'Lucida Grande', Geneva, sans-serif;
+	font-size: 0.82em;
+	height: 22%;
+	left: 4%;
+	line-height: 1.5em;
+	padding: 9% 10% 10% 8%;
+	position: fixed;
+	top: 35%;
+	width: 22%;
+	z-index: 6;
+}
+>>>>>>> 38a23c2d396e4518b8efc66a08cfe82a23a9b88a
 
 #lune {
     background-image: url("../resources/chapter1/img/h/luneinverse.png");
@@ -830,7 +849,11 @@
 100% {-webkit-transform:rotate(10deg) scale(1); transform:rotate(10deg) scale(1); transform-origin: 50% 50%; -webkit-transform-origin: 50% 50%; opacity:0;}
 }
 .chapitre3 {
+<<<<<<< HEAD
 	width:7168px;
+=======
+	width:6144px;
+>>>>>>> 38a23c2d396e4518b8efc66a08cfe82a23a9b88a
 }
 
 .bulle9a {
