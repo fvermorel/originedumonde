@@ -38,13 +38,5 @@
 <preference name="webviewbounce" value="false" />
 
 	<plugin name="cordova-plugin-inappbrowser" spec="1.1.1" />
-=======
-    <author href="http://www.oracle-editions.com/" email="fvermorel@gmail.com">
-      Oracle Editions
-    </author>
-	<preference name="orientation" value="landscape" />
-	<icon src="icon.png" />
-	<gap:splash src="splash.png" />
-
 
 </widget>
